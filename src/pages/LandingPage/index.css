@@ -1,0 +1,33 @@
+.signin-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e1e1e1;
+  padding: 15px;
+  height: 100vh;
+  overflow: auto;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+input {
+  height: 1.5rem;
+  width: 15rem;
+  margin: 5px;
+}
+
+.action-section {
+    text-align: center;
+}
+
+input[type="submit"] {
+  height: 2rem;
+  width: 7rem;
+  margin: 5px;
+}
